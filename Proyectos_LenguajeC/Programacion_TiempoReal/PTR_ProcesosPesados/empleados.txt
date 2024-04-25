@@ -1,0 +1,12 @@
+Juan|Perez|123|15
+Maria|Lopez|456|29
+Pedro|Garcia|789|30
+Pedro|Lopez|543|45
+Juan|Perez|555|25
+Maria|Lopez|666|89
+Pedro|Garcia|777|40
+Pedro|Lopez|888|23
+Juan|Perez|999|25
+Maria|Lopez|111|25
+Pedro|Garcia|222|60
+Pedro|Lopez|333|25

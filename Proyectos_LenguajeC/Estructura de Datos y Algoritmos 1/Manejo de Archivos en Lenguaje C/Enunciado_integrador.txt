@@ -1,0 +1,21 @@
+
+Ejercicio integrador
+
+Se recibe un archivo de texto para ser analizado su contenido, el cual es texto libre y puede tener variable cantidad de líneas, cada línea de largo variable (máximo de 500 caracteres). El archivo de ingreso siempre se llamará “input.txt”.
+
+El programa inicia buscando el archivo de texto y leyendo cada línea usando punteros, por cada línea leída debe crear un registro en una base interna (archivo binario) con los siguientes datos:
+    • Cantidad de vocales
+    • Cantidad de consonantes
+    • Cantidad otros caracteres (incluye números, espacios, puntos, comas, especiales, etc)
+    • Cantidad totales de caracteres
+
+NOTA: Al contar los caracteres NO se debe incluir el '\n' ni el '\0' de cada línea. Considerar que una línea también puede estar vacía.
+
+Al finalizar de procesar el archivo de texto, debe mostrar un menú que permita realizar: 
+    • Indicando una línea, consultar el archivo binario y mostrar los datos (fseek)
+    • Listar todos los datos de cada una de las líneas del archivo binario (mostrar pantalla).
+    • Crear archivo de texto pasado todo en mayúsculas (archivo output.txt)
+    • Salir del programa
+
+
+NOTA: Implementar la solución utilizando tipos de datos struct, funciones y punteros. No se permite el uso de variables globales. Incluir en la entrega los archivos de texto (input) utilizados para la realización del ejercicio.
